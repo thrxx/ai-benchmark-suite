@@ -1,0 +1,133 @@
+# ================= Python =================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ================= Virtual Environment =================
+venv/
+ENV/
+env/
+.venv
+.env.local
+.env.*.local
+
+# ================= IDE =================
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pydev
+.pydevproject
+.settings/
+
+# ================= Environment Variables =================
+# .env файл с конфигами (но можно закоммитить .env.example)
+.env
+
+# ================= Results & Logs =================
+# Результаты бенчмарков (генерируются автоматически)
+results/
+*.json
+!package.json
+!tsconfig.json
+
+# Сырые выводы моделей
+raw_output_*.txt
+output_*.txt
+
+# Логи
+*.log
+logs/
+
+# ================= Docker =================
+.dockerignore
+
+# ================= OS =================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ================= Testing =================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ================= MyPy =================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ================= Temporary Files =================
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.cache/
+*.lock
+
+# ================= Jupyter =================
+.ipynb_checkpoints/
+*.ipynb

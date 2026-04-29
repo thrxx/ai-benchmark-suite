@@ -1,0 +1,12 @@
+services:
+  benchmark:
+    build: .
+    container_name: ai-coding-bench
+    env_file: .env
+    # 👇 Критично для Windows: резолвинг host.docker.internal
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./results:/app/results
+    restart: "no"
+    # 👇 network_mode: host — НЕ использовать на Windows Docker Desktop!
