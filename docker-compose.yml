@@ -10,3 +10,4 @@ services:
       - ./results:/app/results
     restart: "no"
     # 👇 network_mode: host — НЕ использовать на Windows Docker Desktop!
+    
